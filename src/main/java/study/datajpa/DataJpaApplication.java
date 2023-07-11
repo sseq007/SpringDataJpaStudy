@@ -2,6 +2,7 @@ package study.datajpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import study.datajpa.entity.Member;
 
 @SpringBootApplication
 public class DataJpaApplication {
@@ -9,5 +10,6 @@ public class DataJpaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DataJpaApplication.class, args);
 	}
+
 
 }
